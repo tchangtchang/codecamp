@@ -1,0 +1,12 @@
+body {
+    margin:0px
+}
+#menu {
+    background-color: red;
+}
+#header {
+    background-image:url("Images/v2.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height:720px;
+}
