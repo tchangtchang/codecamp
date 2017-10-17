@@ -1,12 +1,16 @@
-body {
-    margin:0px
+.bandeau {
+	width: 100%;
+    display:inline-flex
 }
-#menu {
-    background-color: red;
+.first {
+    z-index:1;
+    top:0;
+    position:absolute;
 }
-#header {
-    background-image:url("Images/v2.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-    height:720px;
+.test {
+    z-index:2;
+    top:0;
+    left:592px;
+    position:absolute;
+    display:none;
 }

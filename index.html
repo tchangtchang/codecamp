@@ -1,22 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Lover Room</title>
-        <link rel="stylesheet" media="screen" type="text/css" title="Titre" href="style.css" /
-    </head>
-
-    <body>
-
-<ul id="menu">
-        <li><a href="#" title="Voir la page d'accueil">Accueil</a></li>
-        <li><a href="#" title="Voir les photos">Les photos</a></li>
-        <li><a href="#" title="Voir les informations">Les informations</a></li><li><a href="#" title="Voir la page contact">Contact</a></li>
-</ul>
-<div id="header">
-    <div id="top1"></div>
     
+<head>
+    <link rel="stylesheet" media="screen" type="text/css" title="Titre" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+    
+<body>
+    
+
+<div class="first">   
+<div class="bandeau"> 
+    <img src="Images/1.png">
 </div>
+<div class="bandeau"> 
+    <img src="Images/2.png">
+    <img id="canard1" src="Images/3.png">
+    <img src="Images/4.png">
+    <img src="Images/5.png">
+    <img src="Images/6.png">
+</div>
+
+<div class="bandeau">
+    <img src="Images/7.png">
+    </div>
     
+<div class="bandeau">
+    <img src="Images/8.png">
+    <img src="Images/9.png">
+    <img src="Images/10.png">
+    <img src="Images/11.png">
+    <img src="Images/12.png">
+    <img src="Images/13.png">
+    <img src="Images/14.png">
+    <img src="Images/15.png">
+    <img src="Images/16.png">
+    <img src="Images/17.png">
+    <img src="Images/18.png">
+    </div>
+    
+<div class="bandeau">
+    <img src="Images/19.png">
+    <img src="Images/20.png">
+    <img src="Images/21.png">
+    <img src="Images/22.png">
+    <img src="Images/23.png">
+    <img src="Images/24.png">
+    <img src="Images/25.png">
+    </div>
+    
+<div class="bandeau">
+    <img src="Images/26.png">
+    <img src="Images/27.png">
+    <img src="Images/28.png">
+    </div>
+</div>         
+<div class="test"><iframe src="https://open.spotify.com/embed/track/0vg4WnUWvze6pBOJDTq99k" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>    
+    
+
+    <script>
+$(document).ready(function(){
+    $("#canard1").click(function(){
+        $(".test").css("display","block");
+    });
+
+$( "#canard1" ).mouseenter(function() {
+  $("#canard1").attr("src","Images/3play.png");
+});
+
+$( "#canard1" ).mouseleave(function() {
+  $("#canard1").attr("src","Images/3.png");
+});
+        });
+</script>
     </body>
 </html>
