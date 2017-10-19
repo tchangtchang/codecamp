@@ -3,7 +3,11 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: #abfce2 !important;
+=======
+    background-color: #4bffc6 !important;
+>>>>>>> fc212443836085b753251f15d92e59cf19f988df
     display: block;
     margin: 0px;
     }
@@ -11,18 +15,25 @@ body {
 .first {
     z-index:1;
     top:0;
+<<<<<<< HEAD
 }
 
 p {
     line-height:0.6;
     font-size:15px;
 }
+=======
+/*    position: absolute*/
+}
+
+>>>>>>> fc212443836085b753251f15d92e59cf19f988df
 
 .canard-music {
     display:none;
     z-index:2;
     left:15px;
     position:fixed;
+<<<<<<< HEAD
     top: 15px; 
     background-color:#fff;
     border:10px solid;
@@ -37,15 +48,24 @@ p {
 
 .info-song p {
     line-height: 0;
+=======
+    top: 15px;
+    
+>>>>>>> fc212443836085b753251f15d92e59cf19f988df
 }
 
 .top10 {
     background-color: #fff;
+<<<<<<< HEAD
+=======
+    height:110px;
+>>>>>>> fc212443836085b753251f15d92e59cf19f988df
     width: 1496px;
 }
 h1 {
     padding: 27px;
     font-family: 'Dawning of a New Day', cursive !important; 
+<<<<<<< HEAD
 }
 .profil img {
     width: 160px; 
@@ -160,4 +180,6 @@ h2, h3 {
 
 .scrolldown img {
     height:50px;
+=======
+>>>>>>> fc212443836085b753251f15d92e59cf19f988df
 }
